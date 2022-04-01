@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hJ2VnW7lr82PfDGGBICRNzpxDsGOAyE34jCMDr/2XO/cTfZcJ6BtZcQFVJVOhho3ZvkabYp3h+NFVQ33yJ5LNg==",
+  "dgSpecHash": "ls6SXOBkzWSf1NX5p2XWc2sbSlgZvPGK346/Zh0XbMYti3LDv/dooZPGzZrYoT9iIErn2yrP3wtmwMhQkIzxlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juliano\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\juliano\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
