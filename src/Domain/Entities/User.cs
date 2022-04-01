@@ -1,3 +1,4 @@
+using Core.Exceptions;
 using Domain.Validators;
 
 namespace Domain.Entities
@@ -47,10 +48,10 @@ namespace Domain.Entities
                     _errors.Add(error.ErrorMessage);
                 
 
-                throw new Exception($"Alguns campos estão invalidos, por favor corrija-os! {_errors}");
+                throw new DomainException("Alguns campos estão invalidos, por favor corrija-os! ", _errors);
             }
 
             return true;
         }
-    }
+    } 
 }

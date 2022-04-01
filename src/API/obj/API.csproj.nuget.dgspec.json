@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj": {}
+    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj": {
+    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\obj\\",
+        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",

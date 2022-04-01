@@ -10,6 +10,16 @@
         "runtime": {
           "lib/net6.0/FluentValidation.dll": {}
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
       }
     }
   },
@@ -34,10 +44,16 @@
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Core >= 1.0.0",
       "FluentValidation >= 10.4.0"
     ]
   },
@@ -67,7 +83,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
