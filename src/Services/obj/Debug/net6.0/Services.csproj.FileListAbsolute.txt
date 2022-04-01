@@ -1,0 +1,12 @@
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\bin\Debug\net6.0\Services.deps.json
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\bin\Debug\net6.0\Services.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\bin\Debug\net6.0\ref\Services.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\bin\Debug\net6.0\Services.pdb
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\Services.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\ref\Services.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Services\obj\Debug\net6.0\Services.pdb

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ElMFHvjabaAJQ/AvHI8EizjIjqEqBoVGS38nNnNzbZq8xRjT0FHFNGTrteb5Dfs9TsZHDuY+HuNHOvBSRxPiOA==",
+  "dgSpecHash": "yPPTyV+YBfG7wtW7we0glIvSL6UDv/Q3qJxVyDbOqLKJ5pO81wYRMg586XMATbOzhf3sQvGAjzoqkfiDU9TqpA==",
   "success": true,
   "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\juliano\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

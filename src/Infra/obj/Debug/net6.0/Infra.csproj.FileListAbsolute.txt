@@ -1,0 +1,12 @@
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\bin\Debug\net6.0\Infra.deps.json
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\bin\Debug\net6.0\Infra.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\bin\Debug\net6.0\ref\Infra.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\bin\Debug\net6.0\Infra.pdb
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\Infra.csproj.AssemblyReference.cache
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\Infra.AssemblyInfoInputs.cache
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\Infra.AssemblyInfo.cs
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\Infra.csproj.CoreCompileInputs.cache
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\Infra.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\ref\Infra.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Infra\obj\Debug\net6.0\Infra.pdb
