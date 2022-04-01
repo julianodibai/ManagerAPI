@@ -9,6 +9,7 @@
       "API/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
+          "Domain": "1.0.0",
           "Infra": "1.0.0",
           "Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"

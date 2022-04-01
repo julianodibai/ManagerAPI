@@ -2092,6 +2092,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Core >= 1.0.0",
+      "Domain >= 1.0.0",
       "Infra >= 1.0.0",
       "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2103,11 +2104,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+      "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj",
       "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\obj\\",
+      "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2126,6 +2127,9 @@
           "projectReferences": {
             "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
+            },
+            "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
             },
             "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
               "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj"

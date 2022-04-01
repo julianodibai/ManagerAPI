@@ -25,7 +25,7 @@ namespace Domain.Validators
                 .MinimumLength(3)
                 .WithMessage("O nome deve ter no minimo 3 caracteres")
                 
-                .MinimumLength(80)
+                .MaximumLength(80)
                 .WithMessage("O nome deve ter no maximo 80 caracteres");
         
             RuleFor(x => x.Password)
@@ -38,7 +38,7 @@ namespace Domain.Validators
                 .MinimumLength(6)
                 .WithMessage("A senha deve ter no minimo 6 caracteres")
                 
-                .MinimumLength(80)
+                .MaximumLength(80)
                 .WithMessage("A senha deve ter no maximo 80 caracteres")
                 
                 .Matches(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$")
@@ -53,7 +53,7 @@ namespace Domain.Validators
 
                 .MinimumLength(10)
                 .WithMessage("O email deve ter no minimo 10 caracteres")
-                .MinimumLength(180)
+                .MaximumLength(180)
                 .WithMessage("O email deve ter no maximo 180 caracteres")
                 
                 .Matches(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$")
