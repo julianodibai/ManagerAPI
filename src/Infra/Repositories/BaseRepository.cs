@@ -13,22 +13,6 @@ namespace Infra.Repositories
         {
             _context = context;
         }
-        public virtual async Task<T> GetById(long id)
-        {
-            var obj = await _context.Set<T>()
-                                    .AsNoTracking() 
-                                    .Where(x => x.Id == id)
-                                    .ToListAsync();
-
-            return obj.FirstOrDefault();
-        }
-
-        public virtual async Task<List<T>> GetAll()
-        {
-            return await _context.Set<T>()
-                                 .AsNoTracking()
-                                 .ToListAsync();
-        }
         public virtual async Task<T> Create(T obj)
         {
             _context.Add(obj); 
@@ -57,5 +41,21 @@ namespace Infra.Repositories
             }
         }
 
+        public virtual async Task<T> GetById(long id)
+        {
+            var obj = await _context.Set<T>()
+                                    .AsNoTracking() 
+                                    .Where(x => x.Id == id)
+                                    .ToListAsync();
+
+            return obj.FirstOrDefault();
+        }
+
+        public virtual async Task<List<T>> GetAll()
+        {
+            return await _context.Set<T>()
+                                 .AsNoTracking()
+                                 .ToListAsync();
+        }
     }
 }

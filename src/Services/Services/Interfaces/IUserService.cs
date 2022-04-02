@@ -4,13 +4,13 @@ namespace Services.Services.Interfaces
 {
     public interface IUserService
     {
-        Task<UserDTO> GetById(long id);
-        Task<List<UserDTO>> GetAll();
-        Task<UserDTO> Create(UserDTO userDTO);
-        Task<UserDTO> Updade(UserDTO userDTO);
-        Task Remove(long id);
-        Task<UserDTO> GetByEmail(string email); 
-        Task<List<UserDTO>> SearchByEmail(string email);
-        Task<List<UserDTO>> SearchByName(string name);
+        Task<UserDTO> CreateAsync(UserDTO userDTO);
+        Task<UserDTO> UpdateAsync(UserDTO userDTO);
+        Task RemoveAsync(long id);
+        Task<UserDTO> GetByIdAsync(long id);
+        Task<List<UserDTO>> GetAllAsync();
+        Task<UserDTO> GetByEmailAsync(string email); 
+        Task<List<UserDTO>> SearchByEmailAsync(string email);
+        Task<List<UserDTO>> SearchByNameAsync(string name);
     }
 }

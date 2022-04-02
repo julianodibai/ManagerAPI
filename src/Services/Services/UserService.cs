@@ -19,20 +19,7 @@ namespace Services.Services
             _userRepository = userRepository;
         }
 
-        public async Task<UserDTO> GetById(long id)
-        {
-            var user = await _userRepository.GetById(id);
-
-            return _mapper.Map<UserDTO>(user);
-        }
-
-        public async Task<List<UserDTO>> GetAll()
-        {
-            var allUsers = await _userRepository.GetAll();
-
-            return _mapper.Map<List<UserDTO>>(allUsers);
-        }
-        public async Task<UserDTO> Create(UserDTO userDTO)
+        public async Task<UserDTO> CreateAsync(UserDTO userDTO)
         {
             var userExists = await _userRepository.GetByEmail(userDTO.Email);
 
@@ -46,7 +33,7 @@ namespace Services.Services
             return _mapper.Map<UserDTO>(userCreated);
 
         }
-        public async Task<UserDTO> Updade(UserDTO userDTO)
+        public async Task<UserDTO> UpdateAsync(UserDTO userDTO)
         {
             var userExists = await _userRepository.GetByEmail(userDTO.Email);
 
@@ -60,31 +47,45 @@ namespace Services.Services
             return _mapper.Map<UserDTO>(userUpdated);
            
         }
-        public async Task Remove(long id)
+        public async Task RemoveAsync(long id)
         {
             await _userRepository.Remove(id);
         }
 
+        public async Task<UserDTO> GetByIdAsync(long id)
+        {
+            var user = await _userRepository.GetById(id);
 
-        public async Task<UserDTO> GetByEmail(string email)
+            return _mapper.Map<UserDTO>(user);
+        }
+
+        public async Task<List<UserDTO>> GetAllAsync()
+        {
+            var allUsers = await _userRepository.GetAll();
+
+            return _mapper.Map<List<UserDTO>>(allUsers);
+        }
+        public async Task<UserDTO> GetByEmailAsync(string email)
         {
             var user = await _userRepository.GetByEmail(email);
 
             return _mapper.Map<UserDTO>(user);
         }
 
-        public async Task<List<UserDTO>> SearchByEmail(string email)
+        public async Task<List<UserDTO>> SearchByEmailAsync(string email)
         {
             var allUsers = await _userRepository.SearchByEmail(email);
 
             return _mapper.Map<List<UserDTO>>(allUsers);
         }
 
-        public async Task<List<UserDTO>> SearchByName(string name)
+        public async Task<List<UserDTO>> SearchByNameAsync(string name)
         {
             var allUsers = await _userRepository.SearchByEmail(name);
 
             return _mapper.Map<List<UserDTO>>(allUsers);
         }
+
+       
     }
 }
