@@ -35,14 +35,14 @@ namespace Services.Services
         }
         public async Task<UserDTO> UpdateAsync(UserDTO userDTO)
         {
-            var userExists = await _userRepository.GetByEmail(userDTO.Email);
+            var userExists = await _userRepository.GetById(userDTO.Id);
 
             if(userExists == null)
-                throw new DomainException("Não existe usuario com email informado");
+                throw new DomainException("Não existe usuario com id informado");
 
             var user = _mapper.Map<User>(userDTO);
             user.Validate();
-            var userUpdated = await _userRepository.Create(user);
+            var userUpdated = await _userRepository.Updade(user);
 
             return _mapper.Map<UserDTO>(userUpdated);
            

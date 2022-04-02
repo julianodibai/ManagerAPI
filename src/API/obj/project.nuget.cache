@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sC0a1ceO9tdjnNnz9dYQBxZctmhdVkYII4dwmGr9nY5x4SYdNRBIcH0YCjH8RFHIImTK1K368cHikdHrT6/blg==",
+  "dgSpecHash": "m1Xy+/vUd8IKsUYY6fb3yDdrTI/yHFI8ANBbqttJ6UaevHf2zwQUYbGMFvrk59X3byE0RX/8Q4vOXAMd1KhpvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juliano\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\juliano\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",

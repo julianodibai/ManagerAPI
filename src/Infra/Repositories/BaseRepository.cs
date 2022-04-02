@@ -25,6 +25,7 @@ namespace Infra.Repositories
         public virtual async Task<T> Updade(T obj)
         {
             _context.Entry(obj).State = EntityState.Modified; 
+            
             await _context.SaveChangesAsync();
 
             return obj;

@@ -6,8 +6,8 @@ namespace API.ViewModels
     public class UpdateUserViewModel
     {
         [Required(ErrorMessage = "O id nao pode ser vazio.")]
-        [Range(1, int.MaxValue, ErrorMessage = "O id não pode ser menor que 1.")]
-        public int Id { get; set; }
+        [Range(1, long.MaxValue, ErrorMessage = "O id não pode ser menor que 1.")]
+        public long Id { get; set; }
 
         [Required(ErrorMessage = "O nome nao pode ser vazia.")]
         [MinLength(3, ErrorMessage = "O nome deve ter no minimo 3 caracteres.")]
