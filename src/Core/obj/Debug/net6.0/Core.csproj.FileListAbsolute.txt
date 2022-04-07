@@ -9,4 +9,3 @@ C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Core\obj\Debug\net6.0\Co
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Core\obj\Debug\net6.0\Core.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Core\obj\Debug\net6.0\ref\Core.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Core\obj\Debug\net6.0\Core.pdb
-C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
