@@ -2,6 +2,7 @@
 using AutoMapper;
 using Core.Exceptions;
 using Domain.Entities;
+using EscNet.Cryptography.Interfaces;
 using Infra.Repositories.Interfaces;
 using Services.DTO;
 using Services.Services.Interfaces;
@@ -12,11 +13,13 @@ namespace Services.Services
     {
         private readonly IMapper _mapper;
         private readonly IUserRepository _userRepository;
+        private readonly IRijndaelCryptography _rijndaelCryptography;
 
-        public UserService(IMapper mapper, IUserRepository userRepository)
+        public UserService(IMapper mapper, IUserRepository userRepository, IRijndaelCryptography rijndaelCryptography)
         {
             _mapper = mapper;
             _userRepository = userRepository;
+            _rijndaelCryptography = rijndaelCryptography;
         }
 
         public async Task<UserDTO> CreateAsync(UserDTO userDTO)
@@ -27,7 +30,10 @@ namespace Services.Services
                 throw new DomainException("Já existe esse usuário cadastrado com email informado");
 
             var user = _mapper.Map<User>(userDTO);
-            user.Validate(); 
+            user.Validate();
+            user.ChangePassword(_rijndaelCryptography.Encrypt(user.Password));
+
+
             var userCreated = await _userRepository.Create(user);
 
             return _mapper.Map<UserDTO>(userCreated);
@@ -42,6 +48,8 @@ namespace Services.Services
 
             var user = _mapper.Map<User>(userDTO);
             user.Validate();
+            user.ChangePassword(_rijndaelCryptography.Encrypt(user.Password));
+
             var userUpdated = await _userRepository.Updade(user);
 
             return _mapper.Map<UserDTO>(userUpdated);

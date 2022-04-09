@@ -39,10 +39,7 @@ namespace Domain.Validators
                 .WithMessage("A senha deve ter no minimo 6 caracteres")
                 
                 .MaximumLength(80)
-                .WithMessage("A senha deve ter no maximo 80 caracteres")
-                
-                .Matches(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$")
-                .WithMessage("Deve conter ao menos um dígito, deve conter ao menos uma letra minúscula, deve conter ao menos uma letra maiúscula");
+                .WithMessage("A senha deve ter no maximo 80 caracteres");
             
             RuleFor(x => x.Email)
                 .NotEmpty()

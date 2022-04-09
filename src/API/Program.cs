@@ -4,6 +4,7 @@ using API.Token.Interfaces;
 using API.ViewModels;
 using AutoMapper;
 using Domain.Entities;
+using EscNet.IoC.Cryptography;
 using Infra.Context;
 using Infra.Repositories;
 using Infra.Repositories.Interfaces;
@@ -20,15 +21,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-#region DI
-
-builder.Services.AddSingleton(d => builder.Configuration);
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<ITokenService, TokenService>();
-
-#endregion
-
 #region AutoMapper
 
 var autoMapperConfig = new MapperConfiguration(cfg =>
@@ -42,6 +34,14 @@ builder.Services.AddSingleton(autoMapperConfig.CreateMapper());
 
 #endregion
 
+#region DI
+
+builder.Services.AddSingleton(d => builder.Configuration);
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+
+#endregion
 
 #region Database
 
@@ -76,6 +76,12 @@ builder.Services.AddAuthentication(x =>
             ValidateAudience = false
         };
     });
+
+#endregion
+
+#region Cryptography
+
+builder.Services.AddRijndaelCryptography(builder.Configuration["Cryptography"]);
 
 #endregion
 

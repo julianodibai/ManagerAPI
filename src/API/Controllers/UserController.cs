@@ -33,7 +33,8 @@ namespace API.Controllers
 
                 var userCreated = await _userService.CreateAsync(userDTO);
 
-                return Ok(new ResultViewModel{
+                return Ok(new ResultViewModel
+                {
                     Message = "Usuário criado com sucesso",
                     Success = true,
                     Data = userCreated

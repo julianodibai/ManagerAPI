@@ -7,7 +7,12 @@ C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\API
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\ref\API.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\API.pdb
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\EscNet.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Isopoh.Cryptography.Argon2.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Isopoh.Cryptography.Blake2b.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Isopoh.Cryptography.SecureArray.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -24,6 +29,7 @@ C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Mic
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Scrypt.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
