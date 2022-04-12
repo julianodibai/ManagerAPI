@@ -21,6 +21,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
+#region Azure
+
+builder.Host.ConfigureAppConfiguration((context, config) =>
+                {
+                    if (context.HostingEnvironment.IsProduction())
+                    {
+                        var builtConfig = config.Build();
+
+                        config.AddAzureKeyVault(
+                            builtConfig["AzureKeyVault:Vault"],
+                            builtConfig["AzureKeyVault:ClientId"],
+                            builtConfig["AzureKeyVault:ClientSecret"]
+                        );
+                    }
+                });
+                
+#endregion
+
 #region AutoMapper
 
 var autoMapperConfig = new MapperConfiguration(cfg =>
@@ -136,11 +154,9 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
