@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj": {}
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj": {
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\obj\\",
+        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,17 +28,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
               },
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj"
               },
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj"
               }
             }
           }
@@ -100,18 +100,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
+        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
+        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\obj\\",
+        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,18 +154,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -182,8 +182,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
               }
             }
           }
@@ -218,18 +218,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
+        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
+        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\obj\\",
+        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,8 +246,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -298,18 +298,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj": {
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj",
+        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj",
+        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\obj\\",
+        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -326,14 +326,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
               },
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj"
+              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
+                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj"
               }
             }
           }
@@ -372,7 +372,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

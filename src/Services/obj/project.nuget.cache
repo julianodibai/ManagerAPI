@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DDaEcEs0fHQJM/lzRBc4Soky5hOCsOBGpjL5T1pR9Ju6efApRy6ibXppMB/pOPVPhwbkaYh70JVGV1hOjw16pg==",
+  "dgSpecHash": "12uLEyThTD17JDNm73AXsDdHsc8L1diZaJq3c72KKL2L7s/VjZXryVp7rDvMnpUqLMNGZmTHcOvvNIOOh7R99A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj",
+  "projectFilePath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juliano\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\juliano\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",

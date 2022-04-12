@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {}
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
+        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
+        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\obj\\",
+        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

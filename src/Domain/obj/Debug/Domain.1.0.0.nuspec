@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Domain</id>
+    <version>1.0.0</version>
+    <authors>Domain</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="10.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="c:\Users\juliano\OneDrive\Área de Trabalho\Manager\src\Domain\bin\Debug\net6.0\Domain.dll" target="lib\net6.0\Domain.dll" />
+  </files>
+</package>

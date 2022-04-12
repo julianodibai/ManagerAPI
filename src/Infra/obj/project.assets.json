@@ -1931,11 +1931,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
+      "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
       "projectName": "Infra",
-      "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
+      "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
       "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\obj\\",
+      "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1952,8 +1952,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
+            "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2004,7 +2004,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

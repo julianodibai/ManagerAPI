@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nwmGeVe+i+cKtqSmKkvpm+QdCMYpcFNFbRckvovL6KOLIXPVYBpyYI0UNFbQ6br7jfVC0axKew/9Xi1MS5Dysg==",
+  "dgSpecHash": "o/TvKqRJv8BxnXayy6+MSVYXxzbCGBIe8HDDzEJhqz/tHaIgu3z0BPOg2iptOB7Ti0n3yWWVB/1V8ch2q1prAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juliano\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\juliano\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
