@@ -1,9 +1,9 @@
-
 using API.ViewModels;
 
 namespace API.Utilities
 {
-    public static class ResponseUtil{
+    public static class ResponseUtil
+    {
         public static ResultViewModel ApplicationErrorMessage()
         {
             return new ResultViewModel
