@@ -8236,11 +8236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
+      "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\API.csproj",
       "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\obj\\",
+      "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8257,17 +8257,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
-              "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
+            "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
             },
-            "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
+            "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj"
             },
-            "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
-              "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj"
+            "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj"
             },
-            "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj": {
-              "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj"
+            "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Services\\Services.csproj"
             }
           }
         }

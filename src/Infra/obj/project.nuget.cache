@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NtQjTZ/9cYC5h//D24r2BKAHQ73n5h7sOj51lTbqDbzeiRO1FWbFXWpeOIEplTf79sVq6GJuhr0/AXbw5QZmNg==",
+  "dgSpecHash": "kzwpIhypnPkcqVd0ux0YyCBGPq4Q0J2iGpOEwG/CnmE28FLKd3QGcMfqZoLr9yxoseRwdqwuJ08ay7o3Pl0X/A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
+  "projectFilePath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juliano\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\juliano\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

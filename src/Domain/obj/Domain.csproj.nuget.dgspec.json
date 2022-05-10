@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {}
+    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\obj\\",
+        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
-                "projectPath": "c:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
+              "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\juliano\\OneDrive\\Área de Trabalho\\Manager\\src\\Core\\Core.csproj"
               }
             }
           }
